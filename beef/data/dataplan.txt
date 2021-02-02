@@ -1,0 +1,36 @@
+Beef
+
+State explosion breaker graph:
+
+  o-o-o-o-o-o-...
+ / \ / \ / \ /
+o   o   o   o
+ \ / \ / \ / \
+  o-o-o-o-o-o-...
+
+Left most node is node 1
+All nodes have random unique cost, all edges of weight 1
+
+
+Subtask 1
+
+N = 3, M = 2, a_i = 1
+20x random a_i = 1
+
+Subtask 2
+
+10x random M = N-1
+
+Subtask 3
+
+10x random a_i = 5
+
+Subtask 4
+
+3x State explosion breaker N = 200
+20x random N = 200
+
+Subtask 5
+
+3x State explosion breaker N = 1e5
+10x random N = 1e5
