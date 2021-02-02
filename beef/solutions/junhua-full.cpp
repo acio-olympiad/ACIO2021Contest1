@@ -15,7 +15,7 @@ void dijkstra() {
         dist[i] = 1<<30; //source = 1
     }
     priority_queue<pair<int,int> > PQ;
-    PQ.push({1,0});
+    PQ.push({0,1});
     while (PQ.size()) {
         int cur = PQ.top().second, d = -PQ.top().first;
         PQ.pop();
@@ -34,12 +34,12 @@ bool can(int tval) {
     for (int i=2; i<=N; i++) {
         dp[i] = -1<<30;
     }
-    dp[1] = (A[1] >= tval);
+    dp[1] = (A[1] >= tval ? 1 : -1);
     for (int i=0; i<N; i++) {
         int cur = ExploreOrder[i];
         for (auto e: adj[cur]) {
             if (dist[e.first] == dist[cur] + e.second) {
-                dp[e.first] = max(dp[e.first], dp[cur] + (A[e.first] >= tval));
+                dp[e.first] = max(dp[e.first], dp[cur] + (A[e.first] >= tval ? 1 : -1));
             }
         }
     }
@@ -61,13 +61,16 @@ int main() {
     }
 
     dijkstra();
-
-    int lo = 0, hi = 1e9;
+    /*for (int i: ExploreOrder) {
+        printf("%d\n",i);
+    }
+    printf("here\n"); */
+    int lo = 0, hi = 1e9 + 1;
     while (lo+1 != hi) {
         int mid = (lo + hi) >> 1;
-        if (can(mid)) {hi = mid;}
-        else {lo = mid;}
+        if (can(mid)) {lo = mid;}
+        else {hi = mid;}
     }
 
-    printf("%d %d",dist[N], hi);
+    printf("%d %d",dist[N], lo);
 }
