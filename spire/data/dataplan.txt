@@ -1,0 +1,22 @@
+Spire
+
+Subtask 1
+N = 100000 and l = 1 and w = 1 and h = 1
+10x random w = 1
+
+Subtask 2
+N = 8 and l, w = 1 and h = 1e9 (overflow long long)
+N = 1 and l, w = 1 and h = 1
+50x random N = 6-8
+
+Subtask 3
+10x w(max) = 5 and N = 290-300
+20x random N = 290-300
+
+Subtask 4
+2x w(max) = 5 and N = 1990-2000
+10x random N = 1990-2000
+
+Subtask 5
+1x w(max) = 5 and N = 9 99990-100000
+5x random N = 99990-100000
