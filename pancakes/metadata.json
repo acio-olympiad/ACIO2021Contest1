@@ -1,6 +1,6 @@
 {
     "problem_name": "Pancakes",
     "short_name": "acio2021pancakes",
-    "timelimit": 1,
-    "memlimit": 128
+    "timelimit": 2,
+    "memlimit": 256
 }
