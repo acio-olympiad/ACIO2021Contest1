@@ -1,0 +1,27 @@
+[
+  [
+    28,
+    "^(sub1-16|sub1-3|sub1-6|sub1-11|sub1-1|sub1-17|sub1-15|sub1-5|sub1-12|sub1-19|sub1-13|sub1-10|sub1-18|sub1-14|sub1-7|sub1-8|sub1-0|sub1-4|sub1-2|sub1-9)$",
+    "Subtask 1"
+  ],
+  [
+    8,
+    "^(sub2-1|sub2-2|sample1|sub2-6|sub1-1|sub2-4|sub2-8|sub2-7|sub2-3|sub1-0|sub2-5|sub2-9|sub2-0)$",
+    "Subtask 2"
+  ],
+  [
+    20,
+    "^(sub3-5|sub1-16|sub1-3|sample2|sub1-6|sample1|sub3-3|sub1-11|sub1-1|sub1-17|sub3-6|sub3-7|sub3-1|sub1-15|sub1-5|sub1-12|sub1-19|sub1-13|sub1-10|sub1-18|sub1-14|sub1-7|sub3-0|sub3-2|sub3-8|sub1-8|sub3-9|sub3-4|sub1-0|sub1-4|sub1-2|sub1-9)$",
+    "Subtask 3"
+  ],
+  [
+    32,
+    "^(sub4-15|sample2|sub4-0|sub4-16|sub4-7|sub4-14|sub4-12|sub4-8|sub4-10|sub4-11|sub4-3|sub4-2|sub4-18|sub4-4|sub4-19|sub4-6)$",
+    "Subtask 4"
+  ],
+  [
+    12,
+    "^(sub5-16|sub3-5|sub1-16|sub5-7|sub4-15|sub4-13|sub2-1|sub1-3|sub4-5|sample2|sub1-6|sub2-2|sub5-3|sample1|sub5-1|sub4-0|sub4-16|sub5-11|sub3-3|sub5-15|sub4-7|sub1-11|sub4-9|sub5-17|sub2-6|sub1-1|sub5-19|sub4-14|sub1-17|sub2-4|sub4-17|sub5-12|sub3-6|sub4-12|sub5-18|sub4-8|sub3-7|sub3-1|sub4-1|sub1-15|sub1-5|sub4-10|sub4-11|sub1-12|sub2-8|sub5-8|sub5-14|sub4-3|sub5-0|sub5-10|sub1-19|sub1-13|sample3|sub1-10|sub5-5|sub1-18|sub5-9|sub1-14|sub4-2|sub2-7|sub5-6|sub4-18|sub1-7|sub3-0|sub4-4|sub5-13|sub2-3|sub4-19|sub3-2|sub3-8|sub5-2|sub4-6|sub1-8|sub3-9|sub3-4|sub1-0|sub1-4|sub1-2|sub2-5|sub2-9|sub5-4|sub1-9|sub2-0)$",
+    "Subtask 5"
+  ]
+]

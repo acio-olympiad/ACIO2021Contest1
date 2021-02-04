@@ -32,7 +32,7 @@ void dijkstra() {
 
 bool can(int tval) {
     for (int i=2; i<=N; i++) {
-        dp[i] = -1<<30;
+        dp[i] = -(1<<30);
     }
     dp[1] = (A[1] >= tval ? 1 : -1);
     for (int i=0; i<N; i++) {
@@ -48,7 +48,6 @@ bool can(int tval) {
 }
 
 int main() {
-    freopen("sample.txt","r",stdin);
     scanf("%d %d",&N,&M);
     for (int i=1; i<=N; i++) {
         scanf("%d",&A[i]);
@@ -61,6 +60,7 @@ int main() {
     }
 
     dijkstra();
+    if (ExploreOrder.size() != N) printf("FUCK\n");
     /*for (int i: ExploreOrder) {
         printf("%d\n",i);
     }

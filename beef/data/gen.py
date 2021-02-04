@@ -23,11 +23,17 @@ Subtask 5
 3x State explosion breaker N = 1e5
 10x random N = 1e5
 """
-import random, os
-Cases=[[]]
+import os
+import random
+Cases=[]
+counter = 1
+
+random.seed(129348472)
 
 def addcase(n,m, s,t, name):
-    Cases.append([n,m,s,t,random.randint(0,10**4)])
+    global counter
+    Cases.append([n,m,s,t,counter * 23 + 345987343,name])
+    counter += 1
 
 def subtask1():
     for i in range(2):
@@ -60,12 +66,9 @@ subtask5()
 def make_cases():
     os.system("g++ tkgen_actual.cpp -O2 -o tkgen")
     for i in Cases:
-        l = open("tmp.txt","w")
-        l.write("{} {} {} {} {}".format(i[0],i[1],i[2],i[3],i[4]))
-        l.close()
-        os.system("./tkgen <{} >{}".format(i[5]+".in", i[5]+".out"))
-
-        
+        cmd = "echo \"{}\" | ./tkgen > {}".format(" ".join(map(str,i[:5])), i[5]+".in")
+        print(cmd)
+        os.system(cmd)
 
 make_cases()
 
