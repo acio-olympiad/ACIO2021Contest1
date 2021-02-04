@@ -49,17 +49,17 @@ for _ in range(5):
     make_case(99990, 100000, 10000, 100000, 1000000000, 0, 0)
 
 # lowk with queries with maxp 100000
-#for _ in range(10):
-#    make_case(99990, 100000, 3, 10, 100000, 100000, 1)
+for _ in range(10):
+    make_case(99990, 100000, 3, 10, 100000, 100000, 1)
 
 # highk with queries with maxp 100000
-#for _ in range(10):
-#    make_case(99990, 100000, 10000, 100000, 100000, 100000, 0)
+for _ in range(10):
+    make_case(99990, 100000, 10000, 100000, 100000, 100000, 0)
 
 # lowk with queries
-#for _ in range(5):
-#    make_case(99990, 100000, 3, 10, 1000000000, 100000, 1)
+for _ in range(5):
+    make_case(99990, 100000, 3, 10, 1000000000, 100000, 1)
 
 # highk with queries
-#for _ in range(5):
-#    make_case(99990, 100000, 10000, 100000, 1000000000, 100000, 0)
+for _ in range(5):
+    make_case(99990, 100000, 10000, 100000, 1000000000, 100000, 0)
