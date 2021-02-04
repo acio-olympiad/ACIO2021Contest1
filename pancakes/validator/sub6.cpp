@@ -4,6 +4,6 @@ Checker c;
 
 int main() {
     c.validate();
-    ensuref(p_hi <= 100000);
+    ensuref(c.p_hi <= 100000, "max p <= 100000");
     return 0;
 }

@@ -1,0 +1,37 @@
+[
+  [
+    12,
+    "^(curry_ok_slm|curry_ok_lms|curry_odd_msl|curry_odd_mls|sample1|9|curry_degen_slm|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|curry_odd_lsm|curry_imp_mls|curry_degen_lsm|8|curry_almostsample2|6|curry_almostsample1|curry_degen_sml|5|7|curry_ok_large_msl|curry_degen_msl|curry_degen_mls|11|curry_ok_lsm|curry_imp_slm|curry_odd_lms|curry_ok_msl|10|4|curry_imp_0yx|curry_easy_x0x|curry_easy_xx0|curry_imp_lms|curry_ok_large_mls|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|curry_imp_y0x|curry_imp_yx0|3|curry_ok_large_lsm|curry_imp_sml|curry_odd_slm|curry_ok_mls|curry_easy_0xx|2|curry_imp_xy0|curry_imp_0xy|curry_ok_large_slm)$",
+    "Subtask 1"
+  ],
+  [
+    8,
+    "^(curry_ok_slm|curry_ok_lms|14|curry_odd_msl|curry_odd_mls|sample1|9|23|curry_degen_slm|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|32|curry_odd_lsm|curry_imp_mls|18|19|13|curry_degen_lsm|30|20|8|curry_almostsample2|6|curry_almostsample1|24|curry_degen_sml|16|5|7|curry_ok_large_msl|curry_degen_msl|curry_degen_mls|11|curry_ok_lsm|curry_imp_slm|15|curry_odd_lms|31|curry_ok_msl|10|4|curry_imp_0yx|curry_easy_x0x|27|28|curry_easy_xx0|curry_imp_lms|curry_ok_large_mls|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|26|1|curry_imp_y0x|25|curry_imp_yx0|3|curry_ok_large_lsm|curry_imp_sml|29|curry_odd_slm|curry_ok_mls|17|21|curry_easy_0xx|2|22|curry_imp_xy0|curry_imp_0xy|curry_ok_large_slm)$",
+    "Subtask 2"
+  ],
+  [
+    20,
+    "^(curry_ok_slm|sample2|curry_ok_lms|39|sample1|curry_degen_slm|curry_ok_sml|curry_degen_lms|41|curry_degen_lsm|curry_almostsample2|curry_almostsample1|47|curry_degen_sml|45|curry_degen_msl|curry_degen_mls|48|curry_ok_lsm|34|curry_ok_msl|38|33|curry_imp_0yx|42|50|49|12|curry_imp_x0y|1|curry_imp_y0x|36|curry_imp_yx0|44|46|curry_ok_mls|52|35|curry_imp_xy0|curry_imp_0xy|37|40|51|43)$",
+    "Subtask 3"
+  ],
+  [
+    13,
+    "^(curry_ok_slm|56|58|sample2|curry_ok_lms|63|curry_odd_msl|39|curry_odd_mls|sample1|curry_degen_slm|62|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|curry_odd_lsm|41|curry_imp_mls|curry_degen_lsm|64|60|66|curry_almostsample2|61|curry_almostsample1|47|curry_degen_sml|45|68|curry_ok_large_msl|curry_degen_msl|curry_degen_mls|71|48|curry_ok_lsm|34|curry_imp_slm|curry_odd_lms|curry_ok_msl|67|38|33|curry_imp_0yx|curry_easy_x0x|42|curry_easy_xx0|curry_imp_lms|50|53|curry_ok_large_mls|49|55|12|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|1|curry_imp_y0x|36|curry_imp_yx0|curry_ok_large_lsm|curry_imp_sml|72|44|57|46|curry_odd_slm|curry_ok_mls|52|curry_easy_0xx|35|65|curry_imp_xy0|curry_imp_0xy|37|40|54|51|69|70|curry_ok_large_slm|43|59)$",
+    "Subtask 4"
+  ],
+  [
+    17,
+    "^(curry_ok_slm|56|58|sample2|curry_ok_lms|14|76|79|63|curry_odd_msl|39|curry_odd_mls|sample1|9|23|curry_degen_slm|62|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|32|curry_odd_lsm|82|41|curry_imp_mls|18|19|13|curry_degen_lsm|64|30|60|66|20|8|curry_almostsample2|6|61|curry_almostsample1|24|47|curry_degen_sml|45|16|74|68|5|7|curry_ok_large_msl|curry_degen_msl|curry_degen_mls|11|71|48|curry_ok_lsm|34|curry_imp_slm|15|curry_odd_lms|78|31|curry_ok_msl|75|10|4|67|38|33|curry_imp_0yx|curry_easy_x0x|27|28|42|curry_easy_xx0|curry_imp_lms|50|53|curry_ok_large_mls|49|55|77|12|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|26|1|curry_imp_y0x|36|25|curry_imp_yx0|3|curry_ok_large_lsm|curry_imp_sml|72|44|29|57|46|curry_odd_slm|curry_ok_mls|17|52|21|curry_easy_0xx|2|35|65|22|80|curry_imp_xy0|curry_imp_0xy|37|40|54|73|51|69|70|81|curry_ok_large_slm|43|59)$",
+    "Subtask 5"
+  ],
+  [
+    19,
+    "^(curry_ok_slm|56|58|sample2|96|curry_ok_lms|63|curry_odd_msl|39|curry_odd_mls|sample1|curry_degen_slm|62|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|curry_odd_lsm|41|curry_imp_mls|curry_degen_lsm|64|97|60|66|94|curry_almostsample2|61|curry_almostsample1|90|47|95|curry_degen_sml|45|68|curry_ok_large_msl|curry_degen_msl|curry_degen_mls|84|71|48|curry_ok_lsm|34|curry_imp_slm|101|curry_odd_lms|curry_ok_msl|67|88|91|38|86|33|99|curry_imp_0yx|curry_easy_x0x|42|sample3|curry_easy_xx0|87|102|curry_imp_lms|50|53|curry_ok_large_mls|49|55|12|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|1|curry_imp_y0x|36|100|98|curry_imp_yx0|89|curry_ok_large_lsm|curry_imp_sml|72|44|57|46|curry_odd_slm|curry_ok_mls|52|curry_easy_0xx|35|65|92|curry_imp_xy0|curry_imp_0xy|85|37|40|54|51|69|83|70|curry_ok_large_slm|93|43|59)$",
+    "Subtask 6"
+  ],
+  [
+    11,
+    "^(curry_ok_slm|56|58|107|sample2|96|curry_ok_lms|14|76|79|63|curry_odd_msl|109|39|104|curry_odd_mls|sample1|9|23|curry_degen_slm|62|103|curry_ok_sml|curry_odd_sml|curry_degen_lms|curry_ok_large_lms|32|curry_odd_lsm|82|41|curry_imp_mls|18|19|13|curry_degen_lsm|64|97|30|60|66|20|8|94|curry_almostsample2|6|61|curry_almostsample1|24|90|47|95|curry_degen_sml|45|16|74|108|68|5|7|curry_ok_large_msl|112|curry_degen_msl|curry_degen_mls|84|11|71|48|curry_ok_lsm|34|curry_imp_slm|110|101|15|curry_odd_lms|78|31|curry_ok_msl|111|75|10|4|67|88|91|38|86|33|99|curry_imp_0yx|curry_easy_x0x|106|27|28|42|sample3|curry_easy_xx0|87|102|curry_imp_lms|50|53|curry_ok_large_mls|49|55|77|12|curry_imp_x0y|curry_imp_msl|curry_imp_lsm|curry_ok_large_sml|26|1|curry_imp_y0x|36|100|98|25|curry_imp_yx0|3|89|curry_ok_large_lsm|curry_imp_sml|72|44|105|29|57|46|curry_odd_slm|curry_ok_mls|17|52|21|curry_easy_0xx|2|35|65|22|80|92|curry_imp_xy0|curry_imp_0xy|85|37|40|54|73|51|69|83|70|81|curry_ok_large_slm|93|43|59)$",
+    "Subtask 7"
+  ]
+]
