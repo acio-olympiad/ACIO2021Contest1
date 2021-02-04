@@ -6,7 +6,7 @@ input:
 	# Put any data generation commands here
 	bash make_curry_pancake.sh
 	python3 generate_data.py
-	#cp handmade/* .
+	cp handmade/* .
 
 output: input
 	bash ./make-output.sh
