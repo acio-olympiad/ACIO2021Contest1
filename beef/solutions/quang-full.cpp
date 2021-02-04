@@ -25,7 +25,7 @@ int ans[100005];
 
 int dfs(int x, int tgtval){
     if (x == n){
-        return 0;
+        return val[x] >= tgtval ? 1 : -1;
     }
     if (seen[x]) return ans[x];
     seen[x] = true;
