@@ -1,14 +1,15 @@
 #include <iostream>
 #include <utility>
-#define MAXD 1000000005
+#include <algorithm>
+#define MAXP 1000000005
 #define LL long long
 #define MAXN 100005
 using namespace std;
 LL N, K , Q, P[MAXN];
 
 class LazyCreate {
-    LL ST[MAXN * 35][2]; //sum of subtree, number in subtree
-    int L[MAXN * 35], R[MAXN * 35], ptr = 2; //l r
+    LL ST[MAXN * 70][2]; //sum of subtree, number in subtree
+    int L[MAXN * 70], R[MAXN * 70], ptr = 2; //l r
 public:
     void pushup(int cur) {
         ST[cur][0] = ST[L[cur]][0] + ST[R[cur]][0];
@@ -48,15 +49,15 @@ public:
     }
 
     bool can(LL t) { //can we take t times?
-        auto res = ask(0, t, 0, MAXD, 1);
+        auto res = ask(0, (int)min(t, (LL)MAXP), 0, MAXP, 1);
         return(res.first + (N-res.second)*t >= t*K);
     }
 } ST;
 
 void slv() {
-    int lo = -1, hi = MAXD;
+    LL lo = -1, hi = 50000000000005LL;
     while (lo + 1 != hi) {
-        int mid = (lo + hi) >> 1;
+        LL mid = (lo + hi) >> 1LL;
         if (ST.can(mid)) {lo = mid;}
         else {hi = mid;}
     }
@@ -64,18 +65,17 @@ void slv() {
 }
 
 int main() {
-    freopen("sample.txt","r",stdin);
     scanf("%lld %lld %lld",&N,&K,&Q);
     for (int i=1; i<=N; i++) {
         scanf("%lld",&P[i]);
-        ST.upd(P[i], 1, 0, MAXD, 1);
+        ST.upd(P[i], 1, 0, MAXP, 1);
     }
     slv();
     for (int i=0; i<Q; i++) {
         LL a,b;
         scanf("%lld %lld",&a,&b); //num pancakes, position
-        ST.upd(P[b], 0, 0, MAXD, 1);
-        ST.upd(a, 1, 0, MAXD, 1);
+        ST.upd(P[b], 0, 0, MAXP, 1);
+        ST.upd(a, 1, 0, MAXP, 1);
         P[b] = a;
         slv();
     }
