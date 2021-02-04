@@ -40,7 +40,6 @@ map <int,int> Lookup;
 int Compress[MAXN], ptr=1;
 
 int main() {
-    freopen("sample.txt","r",stdin);
     scanf("%d",&N);
     for (int i=1; i<=N; i++) {
         scanf("%d %d %d",&B[i].l, &B[i].w, &B[i].h);
