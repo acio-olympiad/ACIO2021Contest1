@@ -91,13 +91,16 @@ void TwoTrees(int n, int m, int Subtask) {
     vector <int> C[2], C2[2];
     C[0].push_back(1);
 
-    for (int i=2; i<=n; i++) {
+    for (int i=2; i<n; i++) {
         int par = rng(max(1,i-100),i-1), wt = rng(wL, wR);
         color[i] = color[par]^1;
         dep[i] = dep[par] + wt;
         New.add_edge(par, i, wt);
         C[color[i]].push_back(i);
     }
+    C[0].push_back(n);
+    New.add_edge(C[1][rng(0,C[1].size()-1)], n, rng(wL, wR)); //gen n so its same parity as 1
+
     C2[0].push_back(1);
     for (int i=2; i<=n; i++) {
          int s1 = C2[0].size(), s2 =C2[1].size();
@@ -111,13 +114,16 @@ void MegaDag(int n, int m, int Subtask) {
     vector <int> C[2];
     C[0].push_back(1);
 
-    for (int i=2; i<=n; i++) {
-        int par = rng(max(1,i-5),i-1), wt = rng(wL, wR);
+    for (int i=2; i<n; i++) {
+        int par = rng(max(1,i-100),i-1), wt = rng(wL, wR);
         color[i] = color[par]^1;
         dep[i] = dep[par] + wt;
         New.add_edge(par, i, wt);
         C[color[i]].push_back(i);
     }
+    C[0].push_back(n);
+    New.add_edge(C[1][rng(0,C[1].size()-1)], n, rng(wL, wR));
+
     for (int i=n-1; i<=m; i++) {
         int a = C[0][rng(0,C[0].size()-1)];
         int b = C[1][rng(0,C[1].size()-1)];
